@@ -30,6 +30,8 @@ def get_data(symbols, dates):
             df = df.join(df_temp,how='left')        
     return df
 
+def test1():
+    print "test"
 
 def test_run():
     
